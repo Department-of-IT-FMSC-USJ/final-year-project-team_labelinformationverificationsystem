@@ -93,5 +93,3 @@ streamlit run streamlit_app.py
 
 Open your browser and navigate to the Application
 
-
-Universit

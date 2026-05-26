@@ -1,0 +1,643 @@
+{
+    "tmpu31o71mc_label_1.png": {
+        "fields": {
+            "Brand": {
+                "jobcard": "DUPLICATE",
+                "label": null,
+                "match": false,
+                "type": "contains"
+            },
+            "Silhouette": {
+                "jobcard": "bikini/bikini",
+                "label": "bikini/bikini",
+                "match": true,
+                "type": "contains"
+            },
+            "VSD": {
+                "jobcard": "415968",
+                "label": "415968",
+                "match": true,
+                "type": "contains"
+            },
+            "RN": {
+                "jobcard": "RN54867",
+                "label": "RN54867",
+                "match": true,
+                "type": "contains"
+            },
+            "CA": {
+                "jobcard": "CA67359",
+                "label": "CA67359",
+                "match": true,
+                "type": "contains"
+            },
+            "Factory ID": {
+                "jobcard": "ID36015502",
+                "label": "ID36015502",
+                "match": true,
+                "type": "contains"
+            },
+            "Date of MFR": {
+                "jobcard": "12 25",
+                "label": "12 25",
+                "match": true,
+                "type": "contains"
+            },
+            "Country Of Origin": {
+                "jobcard": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯⾥兰卡制造",
+                "label": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯⾥兰卡制造",
+                "match": true,
+                "type": "contains"
+            },
+            "Additional Instructions": {
+                "jobcard": "exclusive of decoration/sauf décoration/no incluye la decoración/esclusa la decorazione/装饰除外",
+                "label": "exclusive of decoration/sauf décoration/no incluye la decoración/esclusa la decorazione/装饰除外",
+                "match": true,
+                "type": "contains"
+            },
+            "Garment Components & Fibre Contents": {
+                "jobcard": "body/gusset/corps/gousset/cuerpo/inserto/corpo/tassello/⾯料/内裆\n57% cotton/coton/algodón/cotone/棉\n38% modal/莫代尔\n5% elastane/élasthanne/elastano/elastan/氨纶",
+                "label_found_parts": [
+                    "body",
+                    "gusset",
+                    "corps",
+                    "gousset",
+                    "cuerpo",
+                    "inserto",
+                    "corpo",
+                    "tassello",
+                    "⾯料",
+                    "内裆",
+                    "57% cotton/coton/algodón/cotone/棉",
+                    "38% modal/莫代尔",
+                    "5% elastane/élasthanne/elastano/elastan/氨纶"
+                ],
+                "missing_parts": [],
+                "label_found_text": "body/gusset/corps/gousset/cuerpo/inserto/corpo/tassello/⾯料/内裆 57% cotton/coton/algodón/cotone/棉 38% modal/莫代尔 5% elastane/élasthanne/elastano/elastan/氨纶",
+                "match": true,
+                "type": "multi_line_contains"
+            },
+            "Size/Age Breakdown": {
+                "expected_sizes": [
+                    "XS/XP/ECH/165/64A",
+                    "S/P/CH/170/68A",
+                    "M/170/72A",
+                    "L/G/170/80A",
+                    "XL/XG/EG/170/90A",
+                    "XXL/XXG/EEG/170/96A"
+                ],
+                "label_found_sizes": [
+                    "XXL/XXG/EEG/170/96A"
+                ],
+                "match": true,
+                "type": "single_valid_size_required"
+            }
+        },
+        "raw_label_text": "INTELLIGENT LABEL SOLUTIONS\nbikini/bikini\nmade in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in\nSri Lanka/斯里兰卡制造 body/gusset/corps/gousset/cuerpo/inserto/\ncorpo/tassello/面料/内裆 57% cotton/coton/algodón/cotone/棉\n38% modal/莫代尔 5% elastane/élasthanne/elastano/elastan/氨纶\nexclusive of decoration/sauf décoration/no incluye la decoración/esclusa la\n40C\ndecorazione/装饰除外\n☆巴回V V V\n40\n40\nRN54867 CA67359 ID36015502 415968 12 25\nXXL/XXG/EEG/170/96A",
+        "additional_information": [
+            "INTELLIGENT",
+            "LABEL",
+            "SOLUTIONS",
+            "40C",
+            "40"
+        ],
+        "missing_information": [
+            "DUPLICATE"
+        ],
+        "overall_pass": false
+    },
+    "tmpu31o71mc_label_2.png": {
+        "fields": {
+            "Brand": {
+                "jobcard": "DUPLICATE",
+                "label": null,
+                "match": false,
+                "type": "contains"
+            },
+            "Silhouette": {
+                "jobcard": "bikini/bikini",
+                "label": "bikini/bikini",
+                "match": true,
+                "type": "contains"
+            },
+            "VSD": {
+                "jobcard": "415968",
+                "label": "415968",
+                "match": true,
+                "type": "contains"
+            },
+            "RN": {
+                "jobcard": "RN54867",
+                "label": "RN54867",
+                "match": true,
+                "type": "contains"
+            },
+            "CA": {
+                "jobcard": "CA67359",
+                "label": "CA67359",
+                "match": true,
+                "type": "contains"
+            },
+            "Factory ID": {
+                "jobcard": "ID36015502",
+                "label": "ID36015502",
+                "match": true,
+                "type": "contains"
+            },
+            "Date of MFR": {
+                "jobcard": "12 25",
+                "label": "12 25",
+                "match": true,
+                "type": "contains"
+            },
+            "Country Of Origin": {
+                "jobcard": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯⾥兰卡制造",
+                "label": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯⾥兰卡制造",
+                "match": true,
+                "type": "contains"
+            },
+            "Additional Instructions": {
+                "jobcard": "exclusive of decoration/sauf décoration/no incluye la decoración/esclusa la decorazione/装饰除外",
+                "label": "exclusive of decoration/sauf décoration/no incluye la decoración/esclusa la decorazione/装饰除外",
+                "match": true,
+                "type": "contains"
+            },
+            "Garment Components & Fibre Contents": {
+                "jobcard": "body/gusset/corps/gousset/cuerpo/inserto/corpo/tassello/⾯料/内裆\n57% cotton/coton/algodón/cotone/棉\n38% modal/莫代尔\n5% elastane/élasthanne/elastano/elastan/氨纶",
+                "label_found_parts": [
+                    "body",
+                    "gusset",
+                    "corps",
+                    "gousset",
+                    "cuerpo",
+                    "inserto",
+                    "corpo",
+                    "tassello",
+                    "⾯料",
+                    "内裆",
+                    "57% cotton/coton/algodón/cotone/棉",
+                    "38% modal/莫代尔",
+                    "5% elastane/élasthanne/elastano/elastan/氨纶"
+                ],
+                "missing_parts": [],
+                "label_found_text": "body/gusset/corps/gousset/cuerpo/inserto/corpo/tassello/⾯料/内裆 57% cotton/coton/algodón/cotone/棉 38% modal/莫代尔 5% elastane/élasthanne/elastano/elastan/氨纶",
+                "match": true,
+                "type": "multi_line_contains"
+            },
+            "Size/Age Breakdown": {
+                "expected_sizes": [
+                    "XS/XP/ECH/165/64A",
+                    "S/P/CH/170/68A",
+                    "M/170/72A",
+                    "L/G/170/80A",
+                    "XL/XG/EG/170/90A",
+                    "XXL/XXG/EEG/170/96A"
+                ],
+                "label_found_sizes": [
+                    "XL/XG/EG/170/90A"
+                ],
+                "match": true,
+                "type": "single_valid_size_required"
+            }
+        },
+        "raw_label_text": "INTELLIGENT LABEL SOLUTIONS\nbikini/bikini\nmade in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in\nSri Lanka/斯里兰卡制造 body/gusset/corps/gousset/cuerpo/inserto/\ncorpo/tassello/面料/内裆 57% cotton/coton/algodón/cotone/棉\n38% modal/莫代尔 5% elastane/élasthanne/elastano/elastan/氨纶\nexclusive of decoration/sauf décoration/no incluye la decoración/esclusa la\ndecorazione/装饰除外\n40C\n40\n40\nRN54867 CA67359 ID36015502 415968 12 25\nXL/XG/EG/170/90A",
+        "additional_information": [
+            "INTELLIGENT",
+            "LABEL",
+            "SOLUTIONS",
+            "40C",
+            "40"
+        ],
+        "missing_information": [
+            "DUPLICATE"
+        ],
+        "overall_pass": false
+    },
+    "tmpu31o71mc_label_3.png": {
+        "fields": {
+            "Brand": {
+                "jobcard": "DUPLICATE",
+                "label": null,
+                "match": false,
+                "type": "contains"
+            },
+            "Silhouette": {
+                "jobcard": "bikini/bikini",
+                "label": "bikini/bikini",
+                "match": true,
+                "type": "contains"
+            },
+            "VSD": {
+                "jobcard": "415968",
+                "label": "415968",
+                "match": true,
+                "type": "contains"
+            },
+            "RN": {
+                "jobcard": "RN54867",
+                "label": "RN54867",
+                "match": true,
+                "type": "contains"
+            },
+            "CA": {
+                "jobcard": "CA67359",
+                "label": "CA67359",
+                "match": true,
+                "type": "contains"
+            },
+            "Factory ID": {
+                "jobcard": "ID36015502",
+                "label": "ID36015502",
+                "match": true,
+                "type": "contains"
+            },
+            "Date of MFR": {
+                "jobcard": "12 25",
+                "label": "12 25",
+                "match": true,
+                "type": "contains"
+            },
+            "Country Of Origin": {
+                "jobcard": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯⾥兰卡制造",
+                "label": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯⾥兰卡制造",
+                "match": true,
+                "type": "contains"
+            },
+            "Additional Instructions": {
+                "jobcard": "exclusive of decoration/sauf décoration/no incluye la decoración/esclusa la decorazione/装饰除外",
+                "label": "exclusive of decoration/sauf décoration/no incluye la decoración/esclusa la decorazione/装饰除外",
+                "match": true,
+                "type": "contains"
+            },
+            "Garment Components & Fibre Contents": {
+                "jobcard": "body/gusset/corps/gousset/cuerpo/inserto/corpo/tassello/⾯料/内裆\n57% cotton/coton/algodón/cotone/棉\n38% modal/莫代尔\n5% elastane/élasthanne/elastano/elastan/氨纶",
+                "label_found_parts": [
+                    "body",
+                    "gusset",
+                    "corps",
+                    "gousset",
+                    "cuerpo",
+                    "inserto",
+                    "corpo",
+                    "tassello",
+                    "⾯料",
+                    "内裆",
+                    "57% cotton/coton/algodón/cotone/棉",
+                    "38% modal/莫代尔",
+                    "5% elastane/élasthanne/elastano/elastan/氨纶"
+                ],
+                "missing_parts": [],
+                "label_found_text": "body/gusset/corps/gousset/cuerpo/inserto/corpo/tassello/⾯料/内裆 57% cotton/coton/algodón/cotone/棉 38% modal/莫代尔 5% elastane/élasthanne/elastano/elastan/氨纶",
+                "match": true,
+                "type": "multi_line_contains"
+            },
+            "Size/Age Breakdown": {
+                "expected_sizes": [
+                    "XS/XP/ECH/165/64A",
+                    "S/P/CH/170/68A",
+                    "M/170/72A",
+                    "L/G/170/80A",
+                    "XL/XG/EG/170/90A",
+                    "XXL/XXG/EEG/170/96A"
+                ],
+                "label_found_sizes": [
+                    "L/G/170/80A"
+                ],
+                "match": true,
+                "type": "single_valid_size_required"
+            }
+        },
+        "raw_label_text": "INTELLIGENT LABEL SOLUTIONS\nbikini/bikini\nmade in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in\nSri Lanka/斯里兰卡制造 body/gusset/corps/gousset/cuerpo/inserto/\ncorpo/tassello/面料/内裆 57% cotton/coton/algodón/cotone/棉\n38% modal/莫代尔 5% elastane/élasthanne/elastano/elastan/氨纶\nexclusive of decoration/sauf décoration/no incluye la decoración/esclusa la\n40C\ndecorazione/装饰除外\n40\n40\nRN54867 CA67359 ID36015502 415968 12 25\nL/G/170/80A",
+        "additional_information": [
+            "INTELLIGENT",
+            "LABEL",
+            "SOLUTIONS",
+            "40C",
+            "40"
+        ],
+        "missing_information": [
+            "DUPLICATE"
+        ],
+        "overall_pass": false
+    },
+    "tmpu31o71mc_label_4.png": {
+        "fields": {
+            "Brand": {
+                "jobcard": "DUPLICATE",
+                "label": null,
+                "match": false,
+                "type": "contains"
+            },
+            "Silhouette": {
+                "jobcard": "bikini/bikini",
+                "label": "bikini/bikini",
+                "match": true,
+                "type": "contains"
+            },
+            "VSD": {
+                "jobcard": "415968",
+                "label": "415968",
+                "match": true,
+                "type": "contains"
+            },
+            "RN": {
+                "jobcard": "RN54867",
+                "label": "RN54867",
+                "match": true,
+                "type": "contains"
+            },
+            "CA": {
+                "jobcard": "CA67359",
+                "label": "CA67359",
+                "match": true,
+                "type": "contains"
+            },
+            "Factory ID": {
+                "jobcard": "ID36015502",
+                "label": "ID36015502",
+                "match": true,
+                "type": "contains"
+            },
+            "Date of MFR": {
+                "jobcard": "12 25",
+                "label": "12 25",
+                "match": true,
+                "type": "contains"
+            },
+            "Country Of Origin": {
+                "jobcard": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯⾥兰卡制造",
+                "label": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯⾥兰卡制造",
+                "match": true,
+                "type": "contains"
+            },
+            "Additional Instructions": {
+                "jobcard": "exclusive of decoration/sauf décoration/no incluye la decoración/esclusa la decorazione/装饰除外",
+                "label": "exclusive of decoration/sauf décoration/no incluye la decoración/esclusa la decorazione/装饰除外",
+                "match": true,
+                "type": "contains"
+            },
+            "Garment Components & Fibre Contents": {
+                "jobcard": "body/gusset/corps/gousset/cuerpo/inserto/corpo/tassello/⾯料/内裆\n57% cotton/coton/algodón/cotone/棉\n38% modal/莫代尔\n5% elastane/élasthanne/elastano/elastan/氨纶",
+                "label_found_parts": [
+                    "body",
+                    "gusset",
+                    "corps",
+                    "gousset",
+                    "cuerpo",
+                    "inserto",
+                    "corpo",
+                    "tassello",
+                    "⾯料",
+                    "内裆",
+                    "57% cotton/coton/algodón/cotone/棉",
+                    "38% modal/莫代尔",
+                    "5% elastane/élasthanne/elastano/elastan/氨纶"
+                ],
+                "missing_parts": [],
+                "label_found_text": "body/gusset/corps/gousset/cuerpo/inserto/corpo/tassello/⾯料/内裆 57% cotton/coton/algodón/cotone/棉 38% modal/莫代尔 5% elastane/élasthanne/elastano/elastan/氨纶",
+                "match": true,
+                "type": "multi_line_contains"
+            },
+            "Size/Age Breakdown": {
+                "expected_sizes": [
+                    "XS/XP/ECH/165/64A",
+                    "S/P/CH/170/68A",
+                    "M/170/72A",
+                    "L/G/170/80A",
+                    "XL/XG/EG/170/90A",
+                    "XXL/XXG/EEG/170/96A"
+                ],
+                "label_found_sizes": [
+                    "M/170/72A"
+                ],
+                "match": true,
+                "type": "single_valid_size_required"
+            }
+        },
+        "raw_label_text": "INTELLIGENT LABEL SOLUTIONS\nbikini/bikini\nmade in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in\nSri Lanka/斯里兰卡制造 body/gusset/corps/gousset/cuerpo/inserto/\ncorpo/tassello/面料/内裆 57% cotton/coton/algodón/cotone/棉\n38% modal/莫代尔 5% elastane/élasthanne/elastano/elastan/氨纶\nexclusive of decoration/sauf décoration/no incluye la decoración/esclusa la\n40C\ndecorazione/装饰除外\n40\n40\nRN54867 CA67359 ID36015502 415968 12 25\nM/170/72A",
+        "additional_information": [
+            "INTELLIGENT",
+            "LABEL",
+            "SOLUTIONS",
+            "40C",
+            "40"
+        ],
+        "missing_information": [
+            "DUPLICATE"
+        ],
+        "overall_pass": false
+    },
+    "tmpu31o71mc_label_5.png": {
+        "fields": {
+            "Brand": {
+                "jobcard": "DUPLICATE",
+                "label": null,
+                "match": false,
+                "type": "contains"
+            },
+            "Silhouette": {
+                "jobcard": "bikini/bikini",
+                "label": "bikini/bikini",
+                "match": true,
+                "type": "contains"
+            },
+            "VSD": {
+                "jobcard": "415968",
+                "label": "415968",
+                "match": true,
+                "type": "contains"
+            },
+            "RN": {
+                "jobcard": "RN54867",
+                "label": "RN54867",
+                "match": true,
+                "type": "contains"
+            },
+            "CA": {
+                "jobcard": "CA67359",
+                "label": "CA67359",
+                "match": true,
+                "type": "contains"
+            },
+            "Factory ID": {
+                "jobcard": "ID36015502",
+                "label": "ID36015502",
+                "match": true,
+                "type": "contains"
+            },
+            "Date of MFR": {
+                "jobcard": "12 25",
+                "label": "12 25",
+                "match": true,
+                "type": "contains"
+            },
+            "Country Of Origin": {
+                "jobcard": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯⾥兰卡制造",
+                "label": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯⾥兰卡制造",
+                "match": true,
+                "type": "contains"
+            },
+            "Additional Instructions": {
+                "jobcard": "exclusive of decoration/sauf décoration/no incluye la decoración/esclusa la decorazione/装饰除外",
+                "label": "exclusive of decoration/sauf décoration/no incluye la decoración/esclusa la decorazione/装饰除外",
+                "match": true,
+                "type": "contains"
+            },
+            "Garment Components & Fibre Contents": {
+                "jobcard": "body/gusset/corps/gousset/cuerpo/inserto/corpo/tassello/⾯料/内裆\n57% cotton/coton/algodón/cotone/棉\n38% modal/莫代尔\n5% elastane/élasthanne/elastano/elastan/氨纶",
+                "label_found_parts": [
+                    "body",
+                    "gusset",
+                    "corps",
+                    "gousset",
+                    "cuerpo",
+                    "inserto",
+                    "corpo",
+                    "tassello",
+                    "⾯料",
+                    "内裆",
+                    "57% cotton/coton/algodón/cotone/棉",
+                    "38% modal/莫代尔",
+                    "5% elastane/élasthanne/elastano/elastan/氨纶"
+                ],
+                "missing_parts": [],
+                "label_found_text": "body/gusset/corps/gousset/cuerpo/inserto/corpo/tassello/⾯料/内裆 57% cotton/coton/algodón/cotone/棉 38% modal/莫代尔 5% elastane/élasthanne/elastano/elastan/氨纶",
+                "match": true,
+                "type": "multi_line_contains"
+            },
+            "Size/Age Breakdown": {
+                "expected_sizes": [
+                    "XS/XP/ECH/165/64A",
+                    "S/P/CH/170/68A",
+                    "M/170/72A",
+                    "L/G/170/80A",
+                    "XL/XG/EG/170/90A",
+                    "XXL/XXG/EEG/170/96A"
+                ],
+                "label_found_sizes": [
+                    "S/P/CH/170/68A"
+                ],
+                "match": true,
+                "type": "single_valid_size_required"
+            }
+        },
+        "raw_label_text": "INTELLIGENT LABEL SOLUTIONS\nbikini/bikini\nmade in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in\nSri Lanka/斯里兰卡制造 body/gusset/corps/gousset/cuerpo/inserto/\ncorpo/tassello/面料/内裆 57% cotton/coton/algodón/cotone/棉\n38% modal/莫代尔 5% elastane/élasthanne/elastano/elastan/氨纶\nexclusive of decoration/sauf décoration/no incluye la decoración/esclusa la\n40C\ndecorazione/装饰除外\n巴回V & V\n40\n40\nRN54867 CA67359 ID36015502 415968 12 25\nS/P/CH/170/68A",
+        "additional_information": [
+            "INTELLIGENT",
+            "LABEL",
+            "SOLUTIONS",
+            "40C",
+            "40"
+        ],
+        "missing_information": [
+            "DUPLICATE"
+        ],
+        "overall_pass": false
+    },
+    "tmpu31o71mc_label_6.png": {
+        "fields": {
+            "Brand": {
+                "jobcard": "DUPLICATE",
+                "label": null,
+                "match": false,
+                "type": "contains"
+            },
+            "Silhouette": {
+                "jobcard": "bikini/bikini",
+                "label": "bikini/bikini",
+                "match": true,
+                "type": "contains"
+            },
+            "VSD": {
+                "jobcard": "415968",
+                "label": "415968",
+                "match": true,
+                "type": "contains"
+            },
+            "RN": {
+                "jobcard": "RN54867",
+                "label": "RN54867",
+                "match": true,
+                "type": "contains"
+            },
+            "CA": {
+                "jobcard": "CA67359",
+                "label": "CA67359",
+                "match": true,
+                "type": "contains"
+            },
+            "Factory ID": {
+                "jobcard": "ID36015502",
+                "label": "ID36015502",
+                "match": true,
+                "type": "contains"
+            },
+            "Date of MFR": {
+                "jobcard": "12 25",
+                "label": "12 25",
+                "match": true,
+                "type": "contains"
+            },
+            "Country Of Origin": {
+                "jobcard": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯⾥兰卡制造",
+                "label": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯⾥兰卡制造",
+                "match": true,
+                "type": "contains"
+            },
+            "Additional Instructions": {
+                "jobcard": "exclusive of decoration/sauf décoration/no incluye la decoración/esclusa la decorazione/装饰除外",
+                "label": "exclusive of decoration/sauf décoration/no incluye la decoración/esclusa la decorazione/装饰除外",
+                "match": true,
+                "type": "contains"
+            },
+            "Garment Components & Fibre Contents": {
+                "jobcard": "body/gusset/corps/gousset/cuerpo/inserto/corpo/tassello/⾯料/内裆\n57% cotton/coton/algodón/cotone/棉\n38% modal/莫代尔\n5% elastane/élasthanne/elastano/elastan/氨纶",
+                "label_found_parts": [
+                    "body",
+                    "gusset",
+                    "corps",
+                    "gousset",
+                    "cuerpo",
+                    "inserto",
+                    "corpo",
+                    "tassello",
+                    "⾯料",
+                    "内裆",
+                    "57% cotton/coton/algodón/cotone/棉",
+                    "38% modal/莫代尔",
+                    "5% elastane/élasthanne/elastano/elastan/氨纶"
+                ],
+                "missing_parts": [],
+                "label_found_text": "body/gusset/corps/gousset/cuerpo/inserto/corpo/tassello/⾯料/内裆 57% cotton/coton/algodón/cotone/棉 38% modal/莫代尔 5% elastane/élasthanne/elastano/elastan/氨纶",
+                "match": true,
+                "type": "multi_line_contains"
+            },
+            "Size/Age Breakdown": {
+                "expected_sizes": [
+                    "XS/XP/ECH/165/64A",
+                    "S/P/CH/170/68A",
+                    "M/170/72A",
+                    "L/G/170/80A",
+                    "XL/XG/EG/170/90A",
+                    "XXL/XXG/EEG/170/96A"
+                ],
+                "label_found_sizes": [
+                    "XS/XP/ECH/165/64A"
+                ],
+                "match": true,
+                "type": "single_valid_size_required"
+            }
+        },
+        "raw_label_text": "INTELLIGENT LABEL SOLUTIONS\nbikini/bikini\nmade in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in\nSri Lanka/斯里兰卡制造 body/gusset/corps/gousset/cuerpo/inserto/\ncorpo/tassello/面料/内裆 57% cotton/coton/algodón/cotone/棉\n38% modal/莫代尔 5% elastane/élasthanne/elastano/elastan/氨纶\nexclusive of decoration/sauf décoration/no incluye la decoración/esclusa la\n40°C\ndecorazione/装饰除外\n40°C\n40°C\nRN54867 CA67359 ID36015502 415968 12 25\nXS/XP/ECH/165/64A",
+        "additional_information": [
+            "INTELLIGENT",
+            "LABEL",
+            "SOLUTIONS",
+            "40"
+        ],
+        "missing_information": [
+            "DUPLICATE"
+        ],
+        "overall_pass": false
+    }
+}

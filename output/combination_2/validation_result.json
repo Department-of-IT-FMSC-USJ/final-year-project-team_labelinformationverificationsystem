@@ -1,0 +1,182 @@
+{
+    "tmpds455qhu_label_1.png": {
+        "fields": {
+            "Brand": {
+                "jobcard": "VICTORIA'S SECRET",
+                "label": "VICTORIA'S SECRET",
+                "match": true,
+                "type": "contains"
+            },
+            "Country Of Origin": {
+                "jobcard": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯里兰卡制造",
+                "label": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯里兰卡制造",
+                "match": true,
+                "type": "contains"
+            },
+            "Size/Age Breakdown": {
+                "expected_sizes": [
+                    "L | G | 170/104A",
+                    "M | 170/96A",
+                    "S | P | CH | 170/88A",
+                    "XL | XG | EG | 170/112A",
+                    "XS | XP | ECH | 165/84A"
+                ],
+                "label_found_sizes": [
+                    "XL | XG | EG | 170/112A"
+                ],
+                "match": true,
+                "type": "single_valid_size_required"
+            }
+        },
+        "raw_label_text": "PINK\nVICTORIA'S SECRET\nXL | XG | EG | 170/112A\nmade in Sri Lanka/fabriqué au\nSri Lanka/hecho en Sri\nLanka/fabbricato in Sri Lanka/\n斯里兰卡制造",
+        "additional_information": [
+            "PINK"
+        ],
+        "missing_information": [],
+        "overall_pass": true
+    },
+    "tmpds455qhu_label_2.png": {
+        "fields": {
+            "Brand": {
+                "jobcard": "VICTORIA'S SECRET",
+                "label": "VICTORIA'S SECRET",
+                "match": true,
+                "type": "contains"
+            },
+            "Country Of Origin": {
+                "jobcard": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯里兰卡制造",
+                "label": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯里兰卡制造",
+                "match": true,
+                "type": "contains"
+            },
+            "Size/Age Breakdown": {
+                "expected_sizes": [
+                    "L | G | 170/104A",
+                    "M | 170/96A",
+                    "S | P | CH | 170/88A",
+                    "XL | XG | EG | 170/112A",
+                    "XS | XP | ECH | 165/84A"
+                ],
+                "label_found_sizes": [
+                    "L | G | 170/104A"
+                ],
+                "match": true,
+                "type": "single_valid_size_required"
+            }
+        },
+        "raw_label_text": "# PINK\n## VICTORIA'S SECRET\nL | G | 170/104A\nmade in Sri Lanka/fabriqué au\nSri Lanka/hecho en Sri\nLanka/fabbricato in Sri Lanka/\n斯里兰卡制造",
+        "additional_information": [
+            "PINK"
+        ],
+        "missing_information": [],
+        "overall_pass": true
+    },
+    "tmpds455qhu_label_3.png": {
+        "fields": {
+            "Brand": {
+                "jobcard": "VICTORIA'S SECRET",
+                "label": "VICTORIA'S SECRET",
+                "match": true,
+                "type": "contains"
+            },
+            "Country Of Origin": {
+                "jobcard": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯里兰卡制造",
+                "label": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯里兰卡制造",
+                "match": true,
+                "type": "contains"
+            },
+            "Size/Age Breakdown": {
+                "expected_sizes": [
+                    "L | G | 170/104A",
+                    "M | 170/96A",
+                    "S | P | CH | 170/88A",
+                    "XL | XG | EG | 170/112A",
+                    "XS | XP | ECH | 165/84A"
+                ],
+                "label_found_sizes": [
+                    "M | 170/96A"
+                ],
+                "match": true,
+                "type": "single_valid_size_required"
+            }
+        },
+        "raw_label_text": "PINK\nVICTORIA'S SECRET\nM | 170/96A\nmade in Sri Lanka/fabriqué au\nSri Lanka/hecho en Sri\nLanka/fabbricato in Sri Lanka/\n斯里兰卡制造",
+        "additional_information": [
+            "PINK"
+        ],
+        "missing_information": [],
+        "overall_pass": true
+    },
+    "tmpds455qhu_label_4.png": {
+        "fields": {
+            "Brand": {
+                "jobcard": "VICTORIA'S SECRET",
+                "label": "VICTORIA'S SECRET",
+                "match": true,
+                "type": "contains"
+            },
+            "Country Of Origin": {
+                "jobcard": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯里兰卡制造",
+                "label": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯里兰卡制造",
+                "match": true,
+                "type": "contains"
+            },
+            "Size/Age Breakdown": {
+                "expected_sizes": [
+                    "L | G | 170/104A",
+                    "M | 170/96A",
+                    "S | P | CH | 170/88A",
+                    "XL | XG | EG | 170/112A",
+                    "XS | XP | ECH | 165/84A"
+                ],
+                "label_found_sizes": [
+                    "S | P | CH | 170/88A"
+                ],
+                "match": true,
+                "type": "single_valid_size_required"
+            }
+        },
+        "raw_label_text": "PINK\nVICTORIA'S SECRET\nS|P|CH|170/88A\nmade in Sri Lanka/fabriqué au\nSri Lanka/hecho en Sri\nLanka/fabbricato in Sri Lanka/\n斯里兰卡制造",
+        "additional_information": [
+            "PINK"
+        ],
+        "missing_information": [],
+        "overall_pass": true
+    },
+    "tmpds455qhu_label_5.png": {
+        "fields": {
+            "Brand": {
+                "jobcard": "VICTORIA'S SECRET",
+                "label": "VICTORIA'S SECRET",
+                "match": true,
+                "type": "contains"
+            },
+            "Country Of Origin": {
+                "jobcard": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯里兰卡制造",
+                "label": "made in Sri Lanka/fabriqué au Sri Lanka/hecho en Sri Lanka/fabbricato in Sri Lanka/斯里兰卡制造",
+                "match": true,
+                "type": "contains"
+            },
+            "Size/Age Breakdown": {
+                "expected_sizes": [
+                    "L | G | 170/104A",
+                    "M | 170/96A",
+                    "S | P | CH | 170/88A",
+                    "XL | XG | EG | 170/112A",
+                    "XS | XP | ECH | 165/84A"
+                ],
+                "label_found_sizes": [
+                    "XS | XP | ECH | 165/84A"
+                ],
+                "match": true,
+                "type": "single_valid_size_required"
+            }
+        },
+        "raw_label_text": "# PINK\n## VICTORIA'S SECRET\nXS | XP | ECH | 165/84A\nmade in Sri Lanka/fabriqué au\nSri Lanka/hecho en Sri\nLanka/fabbricato in Sri Lanka/\n斯里兰卡制造",
+        "additional_information": [
+            "PINK"
+        ],
+        "missing_information": [],
+        "overall_pass": true
+    }
+}

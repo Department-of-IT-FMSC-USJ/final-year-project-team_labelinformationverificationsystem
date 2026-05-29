@@ -10,7 +10,7 @@ import requests
 
 from core.jobcard_extractor import extract_required_fields
 from core.label_detector import detect_labels
-from core.label_extractor import extract_label_data
+from core.label_extractor import extract_label_data, extract_care_code_from_pdf
 from core.validator import validate
 
 
@@ -130,6 +130,9 @@ def run_single_pipeline(job_card_path, label_pdf_path, combo_index, progress=Non
     all_label_data = {}
     total = len(label_images)
 
+    # Extract care code from the label PDF
+    label_care_code = extract_care_code_from_pdf(label_pdf_path)
+
     for idx, img_path in enumerate(label_images, start=1):
         _update(
             0.30 + 0.30 * (idx / total),
@@ -144,6 +147,7 @@ def run_single_pipeline(job_card_path, label_pdf_path, combo_index, progress=Non
                 f"OCR failed after 3 attempts. Failed label: {label_name}"
             )
 
+        structured["Care Code"] = label_care_code
         all_label_data[label_name] = structured
 
     _update(0.60, f"[Combination {combo_index}] Label text extracted")
@@ -234,6 +238,17 @@ def render_results(validation_results, label_image_folder, combo_index):
                 # Format list as bullet points for display
                 if isinstance(jobcard_val, list):
                     expected = "\n".join([f" {str(item)}" for item in jobcard_val if has_value(item)])
+                else:
+                    expected = str(jobcard_val)
+
+                label_val = str(label_val) if has_value(label_val) else ""
+
+            elif field == "Care Code":
+                jobcard_val = field_data.get("jobcard", "")
+                label_val = field_data.get("label", "")
+
+                if isinstance(jobcard_val, list):
+                    expected = ", ".join([str(item) for item in jobcard_val if has_value(item)])
                 else:
                     expected = str(jobcard_val)
 

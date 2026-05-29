@@ -287,8 +287,8 @@ def find_missing_information(job_data, label_text):
 
     for key, value in job_data.items():
 
-        # Skip size list because it is separately validated
-        if key == "Size/Age Breakdown":
+        # Skip size list and care code because they are separately validated
+        if key in ["Size/Age Breakdown", "Care Code"]:
             continue
 
         if not has_value(value):
@@ -423,6 +423,33 @@ def validate(job_data, label_data):
         }
 
         if not size_match:
+            overall_pass = False
+
+
+    # ------------------------------------------------
+    # CARE CODE VALIDATION
+    # ------------------------------------------------
+
+    job_care_codes = job_data.get("Care Code")
+    label_care_code = label_data.get("Care Code")
+
+    if has_value(job_care_codes) or has_value(label_care_code):
+        match = False
+        if has_value(job_care_codes) and has_value(label_care_code):
+            if isinstance(job_care_codes, list):
+                norm_job = [normalize(x) for x in job_care_codes]
+                match = normalize(label_care_code) in norm_job
+            else:
+                match = normalize(label_care_code) == normalize(job_care_codes)
+
+        result["fields"]["Care Code"] = {
+            "jobcard": job_care_codes if job_care_codes else "Not Available",
+            "label": label_care_code if label_care_code else "Not Available",
+            "match": match,
+            "type": "exact_or_list_contains"
+        }
+
+        if not match:
             overall_pass = False
 
 

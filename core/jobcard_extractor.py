@@ -60,6 +60,7 @@ def extract_required_fields(pdf_path):
         "Additional Instructions": None,
         "Garment Components & Fibre Contents": None,
         "Care Phrases": [],
+        "Care Code": [],
         "Pant Length": None
     }
 
@@ -155,6 +156,14 @@ def extract_required_fields(pdf_path):
                 line,
                 "Additional Instructions:"
             )
+
+        elif "Care Instruction Set" in line:
+
+            m = re.search(r"Care Instruction Set \d+:\s*([A-Za-z0-9]+)", line, re.IGNORECASE)
+            if m:
+                val = clean_value(m.group(1))
+                if val:
+                    data["Care Code"].append(val)
 
     # ---------------------------
     # Brand Name Extraction

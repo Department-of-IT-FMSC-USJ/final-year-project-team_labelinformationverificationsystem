@@ -5,6 +5,11 @@ import time
 from PIL import Image
 import io
 import os
+# pyrefly: ignore [missing-import]
+import fitz
+import cv2
+import numpy as np
+import re
 
 # ============================
 # CONFIG
@@ -123,6 +128,57 @@ def extract_label_data(image_path):
     return {
         "raw_text": cleaned_text
     }
+
+
+# ============================
+# EXTRACT CARE CODE FROM LABEL PDF
+# ============================
+
+def extract_care_code_from_pdf(pdf_path):
+    """
+    Renders the top 25% of the first page of the label PDF,
+    saves it to a temp file, runs OCR on it, and extracts the care code.
+    """
+    print(f"\n[INFO] Extracting Care Code from: {pdf_path}")
+    try:
+        doc = fitz.open(pdf_path)
+        if len(doc) == 0:
+            print("[ERROR] Empty PDF document.")
+            return None
+        page = doc[0]
+        pix = page.get_pixmap(dpi=300)
+        img = np.frombuffer(pix.samples, dtype=np.uint8).reshape(pix.height, pix.width, pix.n)
+        img = cv2.cvtColor(img, cv2.COLOR_RGBA2BGR) if pix.n == 4 else cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+        
+        h, w = img.shape[:2]
+        crop_h = int(h * 0.25)
+        cropped = img[0:crop_h, 0:w]
+        
+        import tempfile
+        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as temp_img:
+            temp_img_path = temp_img.name
+        
+        try:
+            cv2.imwrite(temp_img_path, cropped)
+            ocr_text = extract_text_from_image(temp_img_path)
+            if ocr_text:
+                match = re.search(r"CARE\s*CODE\s*:\s*([A-Za-z0-9]+)", ocr_text, re.IGNORECASE)
+                if match:
+                    code = match.group(1).strip()
+                    print(f"   [SUCCESS] Care Code extracted: {code}")
+                    return code
+                else:
+                    print("   [WARN] No Care Code found in top header OCR text.")
+            else:
+                print("   [ERROR] OCR on top header returned empty text.")
+        finally:
+            try:
+                os.unlink(temp_img_path)
+            except:
+                pass
+    except Exception as e:
+        print(f"[ERROR] Error extracting care code from PDF: {e}")
+    return None
 
 
 # ============================
